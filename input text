@@ -1,0 +1,19 @@
+def scrape_articles(base_url):
+    articles = [
+        {
+            'title': 'Dance Of Destruction In Name Of Protest: Sheikh Hasina Breaks Silence',
+            'content': 'New Delhi: Ousted Bangladesh Prime Minister Sheikh Hasina, in first comments after leaving Dhaka, has sought that rioters in the country be punished. She has also sought justice for the vandalism to the statue of her father, Sheikh Mujibur Rahman, who was also the Founding Father of Bangladesh.',
+            'url': 'https://www.ndtv.com/world-news/sheikh-hasina-in-first-comments-after-ouster-says-those-involved-in-bangladesh-violence-should-be-investigated-6330434#pfrom=home-ndtv_topscroll'
+        },
+        {
+            'title': 'Market Hits Record High',
+            'content': 'The stock market reached an all-time high today, with investors showing unprecedented confidence. Major indices surged, driven by strong earnings reports and positive economic data. Analysts believe this trend may continue as economic recovery gains momentum.',
+            'url': 'https://www.example.com/news/market-high'
+        },
+        {
+            'title': 'Local Hero Saves Cat',
+            'content': 'A local resident became a hero after rescuing a cat stranded on a tree. The incident drew applause from neighbors and highlighted the importance of community spirit. The cat, though shaken, was safely returned to its owner.',
+            'url': 'https://www.example.com/news/local-hero'
+        }
+    ]
+    return articles
